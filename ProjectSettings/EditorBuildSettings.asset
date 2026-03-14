@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Bootstrap.unity
+    guid: f8fa2547580e0eb4eaa744d8e251a3eb
+  - enabled: 1
+    path: Assets/Scenes/Diana.unity
+    guid: 7f391b6b8f5fee243b266eb7708b97fb
+  - enabled: 1
+    path: Assets/Scenes/Lyuba.unity
+    guid: 8aa5157342819c740ab00a04d17c9473
+  - enabled: 1
+    path: Assets/Scenes/Stepa.unity
+    guid: e52b46ceca7f3a14da8faa11ee97fc3a
   m_configObjects: {}

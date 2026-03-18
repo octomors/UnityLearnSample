@@ -20,6 +20,12 @@ public class DianaSampleScript : SampleScript
 
     public override void Use()
     {
+        if (prefab == null)
+        {
+            Debug.LogError("Назначьте префаб для CreateCopyManager!", this);
+            return;
+        }
+
         Vector3 startPos = transform.position;
 
         for (int i = 1; i <= count; i++)

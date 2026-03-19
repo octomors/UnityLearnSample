@@ -51,7 +51,7 @@ public class ScalerModule : MonoBehaviour
     }
     
     #if UNITY_EDITOR
-    [ContextMenu("Test ActivateModule")]
+    [ContextMenu("ActivateModule")]
     private void TestActivate()
     {
         if (Application.isPlaying)

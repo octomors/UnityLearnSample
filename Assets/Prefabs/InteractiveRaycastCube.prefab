@@ -12,9 +12,7 @@ GameObject:
   - component: {fileID: 7007271434147264660}
   - component: {fileID: 7007271434147264667}
   - component: {fileID: 7007271434147264666}
-  - component: {fileID: 7007271434147264665}
   - component: {fileID: 8774455431766342336}
-  - component: {fileID: 1585601378583646143}
   m_Layer: 0
   m_Name: InteractiveRaycastCube
   m_TagString: Untagged
@@ -98,19 +96,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &7007271434147264665
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7007271434147264664}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b7f7489bbf73384c8b905f4f4cc0863, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefab: {fileID: 7007271434147264664}
 --- !u!114 &8774455431766342336
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -123,19 +108,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19c6a95d20b864240b5c86ca04890255, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1585601378583646143
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7007271434147264664}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc8268a8871560940871a232863d5eff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentValue: 1
-  onDestroyObstacle:
-    m_PersistentCalls:
-      m_Calls: []
